@@ -1,0 +1,118 @@
+/* Mobile */
+@media (max-width: 580px) {
+    /* header */
+    .nav__list > .nav__item{
+        display: block;
+    }
+    .search-button{
+        display: none;
+    }
+    #header{
+        overflow: hidden;
+    }
+    .nav__list{
+        width: 100%;
+    }
+
+    .nav__item-link{
+       width: 100%;
+    }
+    .nav__list  .nav__item{
+       
+        width: 100%;
+     
+    }
+    /* #header .nav__more{
+        position: initial;
+        width: 100%;
+        background-color: var(--text-color);
+
+    }
+    .nav__more-list{
+        
+        color: var(--white-corlor);
+    }
+   */
+
+
+    /* tour */
+    .tour-from__form{
+        max-width: 580px;
+        margin-bottom: 20px;
+    }
+    .tour-from{
+        justify-content: center;
+    }
+    /* slyder */
+    .slider-information{
+        display: none;
+    }
+
+
+    /* about */
+    .about-team__form{
+        width: 60%;
+    }
+    .about-team__form img{
+        width: 100%;
+    }
+    .about-team{
+        flex-wrap: wrap;
+    }
+    .about-team__form{
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+
+    /* contact */
+    .contact__input{
+        width: 100%;
+    }
+    .contact__input-name{
+        margin-bottom: 8px;
+        margin-right: 0%;  
+    }
+    .contact__main-info{
+
+        flex-wrap: wrap;
+    }
+    .contact__main{
+        flex-wrap: wrap;
+ 
+    }
+    .contact__btn{
+        margin-right: 0;
+    
+    }
+    .contact__main-input{
+        width: 100%;
+    }
+    .contact__main-info{
+        width: 100%;
+    }
+
+  
+  
+   
+   
+    
+}
+/* PC */
+@media (min-width: 800px) {
+    .search-menu{
+        display: none;
+    }
+}
+/* Taplet */
+@media (max-width: 799px) and (min-width:580px){
+    
+    .search-menu{
+        display: none;
+    }
+    /* about */
+    .about-team__form{
+        width: 20%;
+    }
+  
+}

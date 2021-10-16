@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3_Band</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <link rel="icon" href="./assets/image/music.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.3-web/css/all.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <!-- Navbar -->
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#" class="nav__item-link">HOME</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__item-link">BAND</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#tour" class="nav__item-link">TOUR</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__item-link">CONTACT</a>
+                </li>
+                <li class="nav__item nav__item-list">
+                    <a href="#" class="nav__item-link">
+                        MORE
+                        <i class="nav__item-icon fas fa-sort-down"></i>
+                        
+                    </a>
+                    <div class="nav__more">
+                        <div class="nav__more-item">Merchandise</div>
+                        <div class="nav__more-item">Extras</div>
+                        <div class="nav__more-item">Media</div>
+                    </div>
+                </li>
+
+            </ul>
+            <!-- end nav -->
+
+            <!-- begin search -->
+            <div class="search-button">
+                <i class=" search-button-icon fas fa-search"></i>
+            </div>
+            <div id="mobile-menu" class="search-menu">
+                <i class=" search-button-icon fas fa-bars"></i>
+            </div>
+            <!-- end search -->
+
+            
+        </div>
+
+        <div id="slider">
+            <div class="slider-content">
+                <img class= "slider-content__img" src="./assets/image/slider-la.jpg" alt="">
+                <div class="slider-information">
+                    <h2 class="slider-information__head">Los Angeles</h2>
+                    <p>We had the best time playing at Venice Beach!</p>
+                </div>
+            </div>
+            <div class="slider-content">
+                <img class= "slider-content__img" src="./assets/image/slider-ny.jpg" alt="">
+                <div class="slider-information">
+                    <h2 class="slider-information__head">New York</h2>
+                    <p>The atmosphere in New York is lorem ipsum.</p>
+                </div>
+            </div>
+            <div class="slider-content slider-content--active">
+                <img class= "slider-content__img" src="./assets/image/slider-chicago.jpg" alt="">
+                <div class="slider-information">
+                    <h2 class="slider-information__head">Chicago</h2>
+                    <p>Thank you, Chicago - A night we won't forget</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="content">
+            <div    id="about" class="about">
+                <div class="content__form">
+                    <h1 class="content-head">THE BAND</h1>
+                    <p class="content-summary">We love music</p>
+                    <p class="content-introduce">
+                        We have created a fictional band website. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="about-team">
+                        <div class="about-team__form">
+                            <p>Name</p>
+                            <img src="./assets/image/bandmember.jpg" alt="">
+                        </div>
+                        <div class="about-team__form">
+                            <p>Name</p>
+                            <img src="./assets/image/bandmember.jpg" alt="">
+                        </div>
+                        <div class="about-team__form">
+                            <p>Name</p>
+                            <img src="./assets/image/bandmember.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tour" class="tour">
+                <div class="content__form">
+                    <h1 class="content-head">TOUR DATES</h1>
+                    <p class="content-summary">Remember to book your tickets!</p>
+                    <ul class="tour__month">
+                        <li class="tour__month-item ">
+                            <span>September</span> 
+                            <span class="tour__month-item--sold">Sold out</span>
+                        </li>
+                        <li class="tour__month-item">
+                            <span>October</span>  
+                            <span class="tour__month-item--sold">Sold out</span>
+                        </li>
+                        <li class="tour__month-item tour__month-item--no-border">
+                            <span>October</span>
+                            <div class="tour__month-item-quantity">
+                                <span>3</span>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="tour-from">
+                        <div class="tour-from__form">
+                            <img src="./assets/image/newyork.jpg" alt="">
+                            <div class="tour-form__info">
+                                <p class="tour-from__name">New York</p>
+                                <p class="tour-from__time">Fri 27 Nov 2016</p>
+                                <p class="tour-from__introduce">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            </div>
+                            <button class="tour-form__button js-buy-ticket">Buy Tickets</button>
+                        </div>
+                        <div class="tour-from__form">
+                            <img src="./assets/image/paris.jpg" alt="">
+                            <div class="tour-form__info">
+                                <p class="tour-from__name">Paris</p>
+                                <p class="tour-from__time">Sat 28 Nov 2016</p>
+                                <p class="tour-from__introduce">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            </div>
+                            <button class="tour-form__button js-buy-ticket">Buy Tickets</button>
+                        </div>
+                        <div class="tour-from__form">
+                            <img src="./assets/image/sanfran.jpg" alt="">
+                            <div class="tour-form__info">
+                                <p class="tour-from__name">San Francisco</p>
+                                <p class="tour-from__time">Sun 29 Nov 2016</p>
+                                <p class="tour-from__introduce">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            </div>
+                            <button class="tour-form__button js-buy-ticket">Buy Tickets</button>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div id="contact" class="contact">
+                <div class="content__form">
+                    <h1 class="content-head">CONTACT</h1>
+                    <p class="content-summary">Fan? Drop a note!</p>
+                    <div class="contact__main">
+                        <div class="contact__main-info">
+                            <span>
+                                <i class="fas fa-map-marker-alt"></i>
+                                Chicago,US
+                            </span>
+                            <span>
+                                <i class="fas fa-phone-alt"></i>
+                                Phone: +00 151515
+                            </span>
+                            <span>
+                                <i class="fas fa-envelope"></i>
+                                Email: mail@mail.com
+                            </span>
+                        </div>
+                        <div class="contact__main-input">
+                            <div class="contact__input-head">
+                                
+                                <input class="contact__input contact__input-name" type="text" placeholder="Name">
+                            
+                            
+                                <input class="contact__input" type="text" placeholder="Email">
+
+                              
+                            </div>
+
+                            <input class="contact__input contact__input-message" type="text" placeholder="Message">
+
+                            
+                            <div class="contact__btn">SEND</div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+            <div class="address">
+                <img src="./assets/image/map.jpg" alt="">
+            </div>
+        
+        </div>
+        <div id="footer">
+            <div class="footer__main">
+             <p class="footer__icon">
+                 <i class="fab fa-facebook-square"></i>
+                 <i class="fab fa-instagram-square"></i>
+                 <i class="fab fa-linkedin-in"></i>
+                 <i class="fab fa-twitter"></i>  
+             </p>
+             <span>Powered by 
+                 <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a>
+             </span>
+ 
+ 
+            </div>
+         </div>
+    </div>
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <header class="modal-header">
+                <div class="modal-cloes js-modal-close"><i class="fas fa-times"></i></div>
+                <h2 class="modal-head">
+                    <i class="fas fa-suitcase"></i>
+                    Tickets
+                </h2>
+
+            </header>
+            <div class="modal-body">
+                <label for="quantity" class="modal-label">
+                    <i class="fas fa-shopping-cart"></i>
+                    Tickets, $15 per person
+                </label>
+                <input id="quantity" type="text" class="modal-input" placeholder="How many?">
+
+                <label for="email" class="modal-label">
+                    <i class="fas fa-user"></i>
+                    Send To
+                </label>
+                <input id="email" type="text" class="modal-input" placeholder="Enter email">
+
+                <button class="modal-btn">
+                    Pay
+                    <i class="fas fa-check"></i>
+                </button>  
+            </div>
+            <footer class="modal-footer">
+               
+                <p class="footer-help">Need <a href="">help?</a></p>
+            </footer>
+            
+
+        </div>
+    </div>
+    <script>
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+        
+
+        // dong mo mobile menu
+        mobileMenu.onclick = function(){
+            var isClose = header.clientHeight === headerHeight;
+            if(isClose){
+                header.style.height= 'auto';
+            }
+            else{
+                header.style.height= null;
+            }
+        }
+        // tu dong khi chon item menu
+        var menuItems =document.querySelectorAll('.nav__list .nav__item a[href*="#"]')
+        for( var i=0 ;i<menuItems.length;i++){
+            var menuItem= menuItems[i];
+            menuItem.onclick = function(){
+                var isParentMenu =this.nextElementSibling && this.nextElementSibling.classList.contains('nav__more');
+                if(!isParentMenu){
+                   
+                     header.style.height=null;  
+                }
+            }
+        }
+       
+    </script>
+    <script>
+        const buyBtns = document.querySelectorAll('.js-buy-ticket')
+        const modal = document.querySelector('.js-modal')
+        const modalClose = document.querySelector('.js-modal-close')
+        const modalContainer = document.querySelector('.js-modal-container')
+        // Hàm hiển thị modal mua vé (thêm class open vào modal)
+        function showBuyTicket(){
+            modal.classList.add('open')
+        }
+        // Hàm đóng modal mua vé (ném class open ra khỏi modal)
+        function hideBuyTicket(){
+            modal.classList.remove('open')
+        }
+        // Duyệt qua từng button trong buyBtn để bắt sự kiện click
+        for( const buyBtn of buyBtns){
+            buyBtn.addEventListener('click', showBuyTicket)
+        }
+        // Bắt sự kiện click vào modla-close
+        modalClose.addEventListener('click',hideBuyTicket )
+
+        modal.addEventListener('click',hideBuyTicket)
+        modalContainer.addEventListener('click', function(event){
+            event.stopPropagation()
+        })
+        
+    </script>
+</body>
+</html>
