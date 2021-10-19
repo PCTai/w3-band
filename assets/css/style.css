@@ -350,6 +350,7 @@ h1{
 }
 /* footer */
 #footer{
+    padding: 40px 0;
     display: flex;
     width: 100%;
    
