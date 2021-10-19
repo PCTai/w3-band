@@ -119,7 +119,10 @@ h1{
     display: none;
     position: relative;
 }
-.slider-content--active{
+.slider-content-js{
+    display: block;
+}
+#slider-content--active{
     display: block;
 }
 .slider-information{
